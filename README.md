@@ -1,13 +1,18 @@
 # Stock App
 
 > A simple application where you could sell and buy stocks and save them, and load them back from stored DB
-
+> - **Application Description:** 
+> > Home page displays Available funds.\
+> > "Portfolio" link displays all the stocks that have been bought and are available to Sell.\
+> > "Stocks" link displays everything available for Buying.\
+> > "Save" updates the record into the firebase.\
+> > "Load" Loads the application with the current values stored in the firebase.
 
 ## Database
-> For back-end, I have used google Firebase which store stocks with their price and value. 
+> For back-end, I have used google firebase which store stocks with their price and value. 
 
 - **Note:** 
-> Only one record can be stored in the Firebase database for this application. A second attempt to save will replace the existing record.
+> Only one record can be stored in the firebase database for this application. A second attempt to save will replace the existing record.
 
 ## Tasks
 - **Methods:** 
@@ -30,5 +35,6 @@ npm run dev
 
 # Build for production
 npm run build
+
 
 
