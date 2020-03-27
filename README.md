@@ -2,6 +2,7 @@
 
 > A simple application where you could sell and buy stocks and save them, and load them back from stored DB
 
+
 ## Database
 > For back-end, I have used google Firebase which store stocks with their price and value. 
 
